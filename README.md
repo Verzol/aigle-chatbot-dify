@@ -33,7 +33,17 @@ Sử dụng code sau để nhúng vào website:
 </iframe>
 ```
 
-## 4. Giao diện sau khi đã nhúng vào website (Demo)
+## 4. Demo sau khi đã nhúng vào website
 
+- Clone repo về máy
+
+- Chạy file `app.py`:
+```bash
+python app.py
+```
+
+- Truy cập: `http://127.0.0.1:5000` (mặc định) để sử dụng Chatbot.
+
+- Giao diện demo khi nhúng lên website:
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/294c5ced-204a-495d-ac21-2a7745bf8afc" />
 
