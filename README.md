@@ -31,3 +31,9 @@ Sử dụng code sau để nhúng vào website:
  frameborder="0"
  allow="microphone">
 </iframe>
+```
+
+## 4. Giao diện sau khi đã nhúng vào website (Demo)
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/294c5ced-204a-495d-ac21-2a7745bf8afc" />
+
