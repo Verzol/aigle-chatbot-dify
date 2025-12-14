@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DIFY Chatbot Demo - Dêm's Project</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f7f9;
+        text-align: center;
+      }
+      header {
+        background-color: #007bff;
+        color: white;
+        padding: 20px 0;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        font-size: 2.5em;
+        margin: 0;
+      }
+      .container {
+        width: 90%;
+        max-width: 1000px; /* Giới hạn chiều rộng để iframe trông đẹp hơn */
+        margin: 0 auto;
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+      }
+      .chatbot-embed {
+        width: 100%;
+        height: 700px; /* Chiều cao cố định cho iframe */
+        min-height: 500px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>🤖 Dify AI Tutor Demo</h1>
+      <p>Project by Dêm | Information Systems & Data Engineering</p>
+    </header>
+    <div class="container">
+      <iframe
+        src="https://udify.app/chatbot/LGpgtuRoEa4BZ2rJ"
+        class="chatbot-embed"
+        frameborder="0"
+        allow="microphone"
+      >
+      </iframe>
+      <p style="margin-top: 20px; color: #555">
+        Dùng Flask (Python) để nhúng Chatbot Dify (LLM App) làm minh chứng cho
+        dự án.
+      </p>
+    </div>
+  </body>
+</html>
